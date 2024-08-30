@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# App meteo con filtro di ricerca per città, include refresh automatico del background in funzione del meteo attuale nella citta cercata.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
