@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.background {
+  flex: 1; 
+  background-size: cover;
+  background-position: center;
+}
+p,
+h1,
+h2,
+h3,
+a,
+div {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: black !important;
+  cursor: pointer;
 }
+
+.space {
+  border-right: 2px black solid;
+}
+
+.bg {
+  padding-block: 0.4rem;
+}
+
+.bg:hover {
+  border-radius: 10px;
+  background-color: rgba(231, 249, 252, 0.54) !important;
+  scale: 1.04;
+}
+
+.here {
+  color: gray;
+}
+
+.search-bar {
+  background-color: #eaf2fd !important;
+}
+
+.color {
+  background-color: rgba(231, 249, 252, 0.44) !important; 
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.bg-color {
+  background-color: #eaf2fd !important;
+}
+
+.font-s {
+  font-size: 2rem;
+}
+
+.color:hover {
+  background-color: #eff4fc;
+  scale: 1.04;
+  transform: 0.3s;
+}
+
+.img-container {
+  width: 2rem;
+  height: 2rem;
+  background-color: white;
+}
+
+.img-cont {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+}
+
